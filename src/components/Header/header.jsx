@@ -11,7 +11,6 @@ export default function Header(){
             <img
               src="/images/menu-plus.svg"
               alt="plus image"
-              width={50}
               color="black"
               className="plus"
             />
