@@ -1,11 +1,11 @@
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
  
-
   return (
     <>
-      <h1>Interprocessor Communication Workshop</h1>
+      <Home />
     </>
   )
 }
