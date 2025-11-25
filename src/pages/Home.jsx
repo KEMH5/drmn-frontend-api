@@ -17,8 +17,8 @@ export default function Home() {
             <p>Ready to monitor your servers with us?</p>
           </div>
           <div className="linkup">
-            <a href="">
-              <p className="link-up-description">LET'S MONITOR</p>
+            <a href="" className="link-up-description">
+              LET'S MONITOR
             </a>
             <img src="/images/arrow.svg" alt="Arrow" />
           </div>

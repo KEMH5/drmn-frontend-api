@@ -25,24 +25,17 @@
     font-family: 'Poppins';
     font-weight: 500;
     margin-top: 5%;
-    width: 20%;
-    margin-left: 40px;
-    margin-right: 10%;
+    width: 30%;
  }
 
- .link-up-description{
-    font-family: 'Poppins';
-    font-size: 120px;
-    color: #000;
- }
+ 
 
  .linkup{
     display: flex;
     justify-content: space-between;
     border-bottom: 5px solid #000;
     padding-bottom: -20px;
-    height: 200px;
-    margin: 0;
+   
  }
 
  .linkup > img{
@@ -51,7 +44,13 @@
 
 .linkup > a{
     text-decoration: none;
+    margin-bottom: 0px;
+    font-family: 'Poppins';
+    font-size: 120px;
+    color: #000;
+    margin-left: 0.5vh;
 }
+
 
 
 
