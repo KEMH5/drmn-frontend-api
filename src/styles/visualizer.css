@@ -1,0 +1,21 @@
+*{
+    margin: 10px 30px;
+}
+
+.pg-desc{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.pg-desc > h1{
+   font-size: 100px;
+   border-right: 3px solid #000;
+   margin-right: 2px;
+   width: 150px;
+}
+
+.pg-desc > p{
+    font-size: 50px;
+    margin-left: 40px;
+}

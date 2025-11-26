@@ -1,0 +1,20 @@
+.menu-container > img{
+    width: 40px;
+    color: #0000;
+}
+
+.menu-container > p{
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vz-main{
+    display: flex;
+    justify-content: space-between;
+}

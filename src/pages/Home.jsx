@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../components/Header/header";
 import "../styles/home.css";
 export default function Home() {
@@ -9,8 +10,10 @@ export default function Home() {
           <h4 className="topic">Monitor your servers</h4>
           <p>Akaza is great tool out here helping us</p>
           <p>And keep our servers safe</p>
-          <h4 className="topic">Supports</h4>
-          <h4 className="topic">Contacts</h4>
+          <a href="#" className="topic">Supports</a>
+          <a href="#" className="topic">Instagram</a>
+          <a href="#" className="topic">Twitter</a>
+          <a href="#" className="topic">Discord</a>
         </div>
         <div className="ft-desc">
           <div className="mn-desc">
@@ -20,7 +23,9 @@ export default function Home() {
             <a href="" className="link-up-description">
               LET'S MONITOR
             </a>
-            <img src="/images/arrow.svg" alt="Arrow" />
+            <Link to="/visualizer" className="link-to-main" >
+              <img src="/images/arrow.svg" alt="Arrow" />
+            </Link>
           </div>
         </div>
       </div>
